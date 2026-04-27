@@ -133,7 +133,7 @@
        (display:none — vises av JS i Fase 2)
     ════════════════════════════ */
 
-     .quiz-screen { display: none; }
+     .hidden { display: none; }
 
     .quiz-header {
       background: linear-gradient(135deg, var(--purple), #4a3880);
