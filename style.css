@@ -1,0 +1,70 @@
+
+
+   :root {
+      --bg:     #d6d2f3;
+      --card:   #1a1828;
+      --border: #2e2b45;
+      --purple: #7c5cbf;
+      --pink:   #ff6eb4;
+      --green:  #5dde8a;
+      --yellow: #ffd166;
+      --text:   #f0eeff;
+      --muted:  #7a7590;
+    }
+
+       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+       
+
+    body{
+
+        font-family: 'Nunito', sans-serif;
+        background: var(--bg);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+
+
+     /* Bakgrunns-prikker */
+    /* body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: radial-gradient(circle, #ffffff08 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
+    } */
+
+
+     /* ════════════════════════════
+       TELEFON-RAMME
+    ════════════════════════════ */
+    .phone {
+      width: 100%;
+      max-width: 360px;
+      background: var(--card);
+      border-radius: 28px;
+      border: 2px solid var(--border);
+      overflow: hidden;
+      box-shadow: 0 24px 64px #00000060, 0 0 0 1px #ffffff08;
+    }
+
+      /* ════════════════════════════
+       STARTSKJERM
+    ════════════════════════════ */
+    .start-screen {
+      padding: 52px 28px 44px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 560px;
+      justify-content: center;
+    }
+
+    
+    
